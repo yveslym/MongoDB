@@ -78,7 +78,7 @@ if __name__ == '__main__':
     #post1.comments =[' wow']
     post1.save_post()
 
-    post2 = Link_Post(title='MongoEngine Documentation', author=Charmele)
+    post2 = Link_Post(title='My mongo Project', author=Charmele)
     post2.link_url = 'https://github.com/yveslym/MongoDB'
     post2.tags = ['mongoengine']
     #post2.comments = [' like this', 'yes, was super great']
